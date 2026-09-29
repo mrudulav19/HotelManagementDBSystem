@@ -96,3 +96,8 @@ SELECT COUNT(*) AS customer_count FROM Customers;
 SELECT COUNT(*) AS room_count FROM Rooms;
 SELECT COUNT(*) AS booking_count FROM Bookings;
 SELECT COUNT(*) AS payment_count FROM Payments;
+
+INSERT INTO Customers
+    (first_name, last_name, email, phone, city)
+VALUES
+    ('Lucas', 'Brown', 'lucas.brown@email.com', '9876543220', 'Pune');
